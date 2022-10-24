@@ -23,6 +23,11 @@ h2{
 
 h3{
   font-size: 1.3rem;
+  margin: 1.2rem 1rem ;
+}
+
+p{
+  margin-bottom: 2rem;
 }
 
 ul li{
@@ -59,9 +64,17 @@ ul li{
 .small-container{
   width: 60%;
   margin: 0 auto;
-  margin-bottom: 4rem;
+  margin-bottom: 6rem;
 }
 
+.bordered-container{
+  border: 2px solid black;
+}
+
+.neutral{
+  background-color: white;
+  color: black;
+}
 
 /* header */
 
@@ -77,10 +90,6 @@ header ul li{
   margin: 0 .5rem;
 }
 
-li button.neutral{
-  background-color: white;
-  color: black;
-}
 
 /* main */
 
@@ -103,7 +112,6 @@ main>header img{
   float: right;
 }
 
-main>header p,
 main>header button{
   margin-bottom: 2rem;
 }
@@ -133,7 +141,6 @@ article.bordered-container{
   margin-top: 2rem;
   width: calc(90% / 3);
   min-width: 220px;
-  border: 2px solid black;
 }
 
 article.bordered-container div.subscribe-tipe{
@@ -143,9 +150,6 @@ article.bordered-container div.subscribe-tipe{
   margin: 0;
 }
 
-article.bordered-container h3{
-  margin: 1.2rem 1rem ;
-}
 
 div.bold{
   font-weight: bold;
