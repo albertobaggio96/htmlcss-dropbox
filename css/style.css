@@ -7,6 +7,15 @@
 body{
   font-family: 'Open Sans', sans-serif;
 }
+
+/* common caratteristic */
+
+button{
+  border: none;
+  padding: .5rem;
+  vertical-align: middle;
+}
+
 .flex{
   display: flex;
 }
@@ -17,11 +26,11 @@ body{
   height: 100%;
 }
 
-button{
-  border: none;
-  padding: .5rem;
-  vertical-align: middle;
+.medium-container{
+  width: 70%;
+  margin: 0 auto;
 }
+
 
 /* header */
 
@@ -34,5 +43,32 @@ header ul li{
   margin-right: 2rem;
   list-style: none;
 }
+
+/* main */
+
+/* main header */
+
+main header{
+  background-color: lightblue;
+  height: 100%;
+}
+
+main header h1{
+  padding: 2rem;
+  font-size: 4rem;
+  font-weight: 900;
+}
+
+main header img{
+  width: 65%;
+  float: right;
+}
+
+main header p,
+main header button{
+  margin-bottom: 2rem;
+}
+
+
 
 
