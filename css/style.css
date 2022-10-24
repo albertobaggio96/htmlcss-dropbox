@@ -131,6 +131,20 @@ section.more-operation article img{
 }
  /* end more operation */
 
+ /* designit */
+
+section.box-section div{
+  width: calc(100% / 3);
+}
+
+div.box-container img{
+  width: calc(100% / 2);
+  height: 100%;
+  
+}
+
+ /* end designit */
+
 
 
 
