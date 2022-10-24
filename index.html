@@ -27,7 +27,7 @@
         <li>Supporto</li>
         <li>Contatta l'ufficio vendite</li>
         <li><button class="neutral">Accedi</button></li>
-        <li><button class="blue">Inizia</button></li>
+        <li><button>Inizia</button></li>
       </ul>
     </nav>
   </header>
@@ -45,80 +45,93 @@
     </header>
 
     <!-- subscribe -->
-    <section class="small-container">
+    <section class="subscribe small-container">
       <h2>Trova il piano business che fa per te</h2>
       <fieldset>
-        <input type="radio" name="Fatturazione" id="Fatturazione mensile" value="Mensile">
-        <label for="Mensile">Fatturazione mensile</label>
-        <input type="radio" name="Fatturazione" id="Fatturazione annuale" value="Annuale">
-        <label for="Annuale">Fatturazione annuale</label>
+        <span>
+          <input type="radio" name="Fatturazione" id="Fatturazione mensile" value="Mensile">
+          <label for="Mensile">Fatturazione mensile</label>
+        </span>
+        <span>
+          <input type="radio" name="Fatturazione" id="Fatturazione annuale" value="Annuale">
+          <label for="Annuale">Fatturazione annuale</label>
+        </span>
       </fieldset>
 
       <div class="col flex column space-between">
         <article class="bordered-container">
-          <div>Singolo</div>
+          <div class="subscribe-tipe"><i class="fa-solid fa-user"></i> Singolo</div>
           <h3>Professional</h3>
-          <div>&euro; 12</div>
-          <div>/mese</div>
+          <div class="bold">&euro; 12.00</div>
+          <div class="mese">/mese</div>
           <ul>
-            <li>1 utente</li>
-            <li>5 TB spazio di archiviazione</li>
-            <li>Funzioni di produttività</li>
+            <li><i class="fa-solid fa-user"></i> 1 utente</li>
+            <li><i class="fa-solid fa-folder"></i> 5 TB spazio di archiviazione</li>
+            <li><i class="fa-solid fa-share-nodes"></i> Funzioni di produttività premium e condivisione file semplice e sicura</li>
           </ul>
-          <button>prova</button>
-          <div>oppure <a href="">acquista ora</a></div>
-          <br>
+          <button>Prova gratis per 30 giorni</button>
+          <div>oppure <a href="#">acquista ora</a></div>
+          <hr>
           <h4>Punti salienti del piano</h4>
           <ul>
-            <li>Invia fino a</li>
-            <li>Cartelle offline</li>
+            <li><i class="fa-solid fa-check"></i> Invia fino a 100 GB con Dropbox Transfer</li>
+            <li><i class="fa-solid fa-check"></i> Cartelle offline su dispositivi mobili</li>
           </ul>
         </article>
 
         <article class="bordered-container">
-          <div>Singolo</div>
-          <h3>Professional</h3>
-          <div>&euro; 12</div>
-          <div>/mese</div>
+          <div class="subscribe-tipe"><i class="fa-solid fa-users"></i> Team</div>
+          <h3>Advenace</h3>
+          <div class="bold">&euro; 18.00</div>
+          <div class="mese">/utente/mese</div>
           <ul>
-            <li>1 utente</li>
-            <li>5 TB spazio di archiviazione</li>
-            <li>Funzioni di produttività</li>
+            <li><i class="fa-solid fa-users"></i> 3 o più utenti</li>
+            <li><i class="fa-solid fa-folder"></i> tutto lo spazio di cui ha bisogno il tuo team</li>
+            <li><i class="fa-solid fa-share-nodes"></i> Sofisticate funzioni di controllo e per tenere al sicuro tutti i file del tuo team</li>
           </ul>
-          <button>prova</button>
-          <div>oppure <a href="">acquista ora</a></div>
-          <br>
+          <button>Prova gratis per 30 giorni</button>
+          <div>oppure <a href="#">acquista ora</a></div>
+          <hr>
           <h4>Punti salienti del piano</h4>
           <ul>
-            <li>Invia fino a</li>
-            <li>Cartelle offline</li>
+            <li><i class="fa-solid fa-check"></i> Nessun limite massimo per i file</li>
+            <li><i class="fa-solid fa-check"></i> Cartelle offline su dispositivi mobili</li>
+            <li><i class="fa-solid fa-check"></i> Risparmio del 50% rispetto alle iscrizioni singole</li>
+            <li><i class="fa-solid fa-check"></i> Possibilità di inserire nuovi membri del team</li>
+            <li><i class="fa-solid fa-check"></i> Gestione dei permessi in base ai ruoli</li>
           </ul>
         </article>
-        
+
         <article class="bordered-container">
-          <div>Singolo</div>
-          <h3>Professional</h3>
-          <div>&euro; 12</div>
-          <div>/mese</div>
+          <div class="subscribe-tipe"><i class="fa-solid fa-building"></i> Azienda</div>
+          <h3>Enterprise</h3>
+          <div class="bold">Contattaci</div>
+          <div class="mese">-</div>
           <ul>
-            <li>1 utente</li>
-            <li>5 TB spazio di archiviazione</li>
-            <li>Funzioni di produttività</li>
+            <li><i class="fa-solid fa-user"></i> 10 o più utenti</li>
+            <li><i class="fa-solid fa-folder"></i> Soluzioni personalizzabili per la tua azienda</li>
+            <li><i class="fa-solid fa-share-nodes"></i> Assistenza personalizzata per aiutare gli amministratori in una gestione su larga scala</li>
           </ul>
-          <button>prova</button>
-          <div>oppure <a href="">acquista ora</a></div>
-          <br>
+          <button>Contattaci</button>
+          <div>oppure <a href="#">acquista ora</a></div>
+          <hr>
           <h4>Punti salienti del piano</h4>
           <ul>
-            <li>Invia fino a</li>
-            <li>Cartelle offline</li>
+            <li><i class="fa-solid fa-check"></i> Cartelle offline su dispositivi mobili</li>
+            <li><i class="fa-solid fa-check"></i> Servizi assistenza 24/h</li>
+            <li><i class="fa-solid fa-check"></i> Possibilità di personalizzazione totale</li>
           </ul>
         </article>
       </div>
 
       <article class="bordered-container ">
-        <h4>team</h4>
-
+        <div class="subscribe-tipe"><i class="fa-solid fa-building"></i> Team</div>
+        <div class="flex space-between">
+          <h3>Enterprise</h3>
+          <button>Contatta l'ufficio vendite</button>
+        </div>
+        <div class="bold">Contatta l'ufficio vendite per i prezzi</div>
+        <p>Soluzioni personalizzate e supporto su misura per aiutare i professionisti IT nella gestione su qualsiasi scala.</p>
       </article>
 
       </section>
