@@ -27,6 +27,12 @@ button{
   height: 100%;
 }
 
+.clearfix{
+  content: "";
+  clear: both;
+  display: table;
+}
+
 .medium-container{
   width: 70%;
   margin: 0 auto;
@@ -54,27 +60,29 @@ header ul li{
 
 /* main header */
 
-main header{
+main>header{
   background-color: lightblue;
   height: 100%;
   margin-bottom: 5rem;
 }
 
-main header h1{
+main>header h1{
   padding: 2rem;
   font-size: 4rem;
   font-weight: 900;
 }
 
-main header img{
+main>header img{
   width: 65%;
   float: right;
 }
 
-main header p,
-main header button{
+main>header p,
+main>header button{
   margin-bottom: 2rem;
 }
+
+/* end main header */
 
 /* subscribe */
 
@@ -88,6 +96,32 @@ article.bordered-container:nth-child(4){
   width: 100%;
   height: 7rem;
 }
+
+/* end subscribe */
+
+ /* partner contact */
+
+section.partner{
+  margin-top: 3rem;
+}
+
+section.partner img{
+  width: 60%;
+  float: left;
+  margin-right: 2rem;
+}
+
+div.side-container{
+  margin-top: 2rem;
+}
+
+ /* end partner contact */
+
+ /* more operation */
+
+
+ /* end more operation */
+
 
 
 
