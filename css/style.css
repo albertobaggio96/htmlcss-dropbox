@@ -145,6 +145,15 @@ div.box-container img{
 
  /* end designit */
 
+ /* main footer */
+ /* bring dropbox inside */
+
+ section.lightblue{
+  background-color: lightskyblue;
+  height: 15rem;
+ }
+
+ /* end main footer */
 
 
 
