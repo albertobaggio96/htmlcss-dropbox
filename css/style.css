@@ -18,12 +18,12 @@ button{
 }
 
 h2{
-  margin: 2rem;
+  margin: 2rem 0;
 }
 
 h3{
   font-size: 1.3rem;
-  margin: 1.2rem 1rem ;
+  margin: 1.2rem 0 ;
 }
 
 p{
@@ -161,6 +161,7 @@ article.bordered-container h4{
   margin: .7rem 1rem;
 }
 
+article.bordered-container h3,
 article.bordered-container hr,
 article.bordered-container ul,
 article.bordered-container p{
