@@ -7,3 +7,32 @@
 body{
   font-family: 'Open Sans', sans-serif;
 }
+.flex{
+  display: flex;
+}
+
+.space-between{
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+button{
+  border: none;
+  padding: .5rem;
+  vertical-align: middle;
+}
+
+/* header */
+
+header{
+  height: 4rem;
+  background-color: gray;
+}
+
+header ul li{
+  margin-right: 2rem;
+  list-style: none;
+}
+
+
