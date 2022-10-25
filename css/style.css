@@ -45,6 +45,11 @@ section.more-operation article{
   display: flex;
 }
 
+.flex-center{
+  justify-content: center;
+  align-items: center;
+}
+
 .space-between{
   flex-wrap: wrap;
   justify-content: space-between;
@@ -252,7 +257,7 @@ h2.limited{
 }
  /* end team link */
 
- /* designit  box*/
+ /* partner  box*/
 section.box-section>div{
   width: calc(100vw / 3);
   height: calc(100vw / 3);
@@ -262,9 +267,13 @@ section.box-section>div{
   flex-wrap: wrap;
 }
 
-div.box-container img{
+div.box-container figure{
   width: calc(100% / 2);
-  padding: 10%;
+  height: calc(100% / 2);
+}
+
+figure img{
+  width: 50%;
 }
 
 div.centered{
@@ -315,7 +324,7 @@ div.centered hr{
   background-color: #ffd830;
 }
 
- /* end designit box*/
+ /* end partner box*/
 
  /* main footer */
  /* bring dropbox inside */
