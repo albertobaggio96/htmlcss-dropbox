@@ -86,7 +86,7 @@ section.more-operation article{
 }
 
 .bordered-container{
-  border: 2px solid black;
+  border: 1px solid black;
 }
 
 .neutral{
@@ -96,6 +96,10 @@ section.more-operation article{
 
 .limited{
   width: 60%;
+}
+
+.bordered-bottom{
+  border-bottom: 1px solid black;
 }
 
 
@@ -126,7 +130,7 @@ header ul li{
 /* main header */
 
 main>header{
-  background-color: lightblue;
+  background-color: #add8e6;
   height: 100%;
   padding-top: 4rem;
 }
@@ -169,7 +173,6 @@ div.col{
 
   /* min-width: 220px; */
 article.bordered-container div.subscribe-tipe{
-  border-bottom: 2px solid black;
   text-align: center;
   padding: .5rem 0;
   margin: 0;
@@ -316,7 +319,7 @@ div.centered hr{
  /* bring dropbox inside */
 
 section.lightblue{
-  background-color: lightskyblue;
+  background-color: #87cefa;
   height: 15rem;
 }
 
@@ -327,11 +330,6 @@ section.lightblue h2{
 }
 
  /* questions */
-section.questions h2,
-section.questions li{
-  border-bottom: 1px solid black;
-}
-
 section.questions h2{
   padding-bottom: 5rem;
   margin: 5rem 0 0 0;
