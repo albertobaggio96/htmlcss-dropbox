@@ -354,7 +354,7 @@ section.questions li{
   padding: 2rem 0;
 }
 
-li i .absolute{
+li i.absolute{
   right: 32px;
 }
 
