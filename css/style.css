@@ -105,15 +105,8 @@ header li img{
 }
 
 header ul li{
-  padding: .4rem 0
+  line-height: 2rem;
 }
-
-li.no-pad{
-  padding: 0;
-}
-
-
-
 /* main */
 
 /* main header */
@@ -362,8 +355,11 @@ footer.black nav ul{
   min-width: 150px;
 }
 
-footer.black li
-/* end footer nav */
+footer.black li{
+  margin: 1rem 0;
+}
+
+  /* end footer nav */
 
 /* footer lenguage */
 section.lenguage{
