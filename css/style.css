@@ -43,10 +43,10 @@ section.more-operation article{
 
 .flex{
   display: flex;
-  flex-wrap: wrap;
 }
 
 .space-between{
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   width: 100%;
@@ -259,6 +259,7 @@ section.box-section>div{
   min-width: 400px;
   min-height: 400px;
   background-color: #f5f5f5;
+  flex-wrap: wrap;
 }
 
 div.box-container img{
