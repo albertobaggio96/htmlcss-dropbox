@@ -101,6 +101,7 @@ header ul li{
 }
 
 
+
 /* main */
 
 /* main header */
@@ -240,19 +241,67 @@ h2.limited{
 }
  /* end team link */
 
- /* designit */
+ /* designit  box*/
 
 section.box-section div{
   width: calc(100% / 3);
+  height: 100%;
 }
 
 div.box-container img{
   width: calc(100% / 2);
-  height: 100%;
-  
+  padding: 10%;
 }
 
- /* end designit */
+div.centered{
+  padding: 2rem
+}
+
+div.centered>img{
+  filter: invert();
+  width: 50%;
+  height: 5rem;
+}
+
+div.centered hr{
+  width: 20%;
+  margin: 1.5rem 0;
+}
+
+.designit{
+  background-color: #a2d39b;
+  border: 10px solid #d1e9cd;
+}
+
+.arizona{
+  background-color: #61082b;
+}
+
+.florida{
+  background-color: #0093ce;
+}
+
+.topps{
+  background-color: #ff1c1c;
+}
+
+.bicycle{
+  background-color: #d5001f;
+}
+
+.corp{
+  background-color: #b4d0e7;
+}
+
+.planet{
+  background-color: #0d2481;
+}
+
+.clear{
+  background-color: #ffd830;
+}
+
+ /* end designit box*/
 
  /* main footer */
  /* bring dropbox inside */
@@ -272,10 +321,3 @@ div.box-container img{
  footer.black nav ul{
   width: calc(90% / 5);
  }
-
-
-
-
-
-
-
