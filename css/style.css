@@ -306,13 +306,36 @@ div.centered hr{
  /* main footer */
  /* bring dropbox inside */
 
- section.lightblue{
+section.lightblue{
   background-color: lightskyblue;
   height: 15rem;
- }
+}
 
+section.lightblue h2{
+  font-size: 2rem;
+  width: 50%;
+  color: #61082b;
+}
+
+ /* questions */
+section.questions h2,
+section.questions li{
+  border-bottom: 1px solid black;
+}
+
+section.questions h2{
+  padding-bottom: 2rem;
+  margin: 5rem 0 0 0;
+  font-size: 2rem;
+}
+
+section.questions li{
+  padding: 1rem 0;
+}
+/* end questions */
  /* end main footer */
 
+ /* footer */
  footer.black{
   background-color: black;
   color: white;
