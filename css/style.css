@@ -64,6 +64,15 @@ section.more-operation article{
   display: table;
 }
 
+.relative{
+  position: relative;
+}
+
+.absolute{
+  position: absolute;
+  right: 32px;
+}
+
 .medium-container{
   max-width: 1100px;
   margin: 0 auto;
