@@ -341,6 +341,27 @@ section.questions h2{
 section.questions li{
   padding: 2rem 0;
 }
+
+section.questions li p{
+  margin-top: 1rem;
+}
+
+section.questions li p,
+section.questions li .fa-angle-up,
+section.questions li:hover .fa-angle-down{
+  display: none;
+}
+
+section.questions li:hover p{
+  display:block;
+}
+
+section.questions li:hover .fa-angle-up{
+  display: inline;
+}
+
+
+
 /* end questions */
 /* end main footer */
 
