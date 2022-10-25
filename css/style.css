@@ -75,7 +75,6 @@ section.more-operation article{
 
 .absolute{
   position: absolute;
-  right: 32px;
 }
 
 .medium-container{
@@ -145,6 +144,10 @@ main>header h1{
   padding: 2rem 0;
   font-size: 4rem;
   font-weight: 900;
+}
+
+div.mini-container{
+  width: 30%;
 }
 
 main>header img{
@@ -349,6 +352,10 @@ section.questions h2{
 
 section.questions li{
   padding: 2rem 0;
+}
+
+li i .absolute{
+  right: 32px;
 }
 
 section.questions li p{
