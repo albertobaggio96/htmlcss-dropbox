@@ -215,6 +215,7 @@ article.bordered-container p{
 
 article.bordered-container li{
   margin-bottom: .5rem;
+  align-items: baseline;
 }
 
 article.bordered-container button{
@@ -223,6 +224,11 @@ article.bordered-container button{
 
 article.bordered-container hr{
   width: 2rem;
+}
+
+article.bordered-container i{
+  padding-right: .3rem;
+  font-size: .8rem;
 }
 
 i.fa-check{
