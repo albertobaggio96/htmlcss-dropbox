@@ -311,6 +311,10 @@ div.centered>img{
   height: 3rem;
 }
 
+figure>img{
+  transition: 1s;
+}
+
 div.centered hr{
   width: 20%;
   margin: 1.5rem 0;
@@ -349,6 +353,13 @@ div.centered hr{
   background-color: #ffd830;
 }
 
+figure:hover img{
+  box-shadow: 12px 12px 2px 1px rgb(0, 0, 0);
+}
+
+figure:active img{
+  opacity: .1;
+}
  /* end partner box*/
 
  /* main footer */
