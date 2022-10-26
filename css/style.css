@@ -15,6 +15,7 @@ button{
   padding: .5rem .7rem;
   background-color: #0061ff;
   color: white;
+  transition: .3s;
 }
 
 h2{
@@ -41,7 +42,8 @@ li>a{
 article.bordered-container,
 section.more-operation article{
   width: calc(90% / 3);
-  margin-top: 2rem
+  margin-top: 2rem;
+  transition: 1s;
 }
 /*  class flex */
 
@@ -112,6 +114,28 @@ section.more-operation article{
   border-bottom: 1px solid black;
 }
 
+button:hover{
+  padding: .7rem .9rem;
+}
+
+button:active{
+  padding: .5rem .7rem;
+  opacity: .5;
+}
+
+a:hover{
+  font-weight: bolder;
+}
+
+a:active{
+  font-weight: 300;
+  font-size: .9rem;
+}
+
+article.bordered-container:hover,
+section.more-operation article:hover{
+  width: calc(100% / 3);
+}
 
 /* header */
 
@@ -155,13 +179,25 @@ main>header h1{
   font-weight: 900;
 }
 
-div.mini-container{
+main>header p{
   width: 30%;
 }
 
 main>header img{
   width: 70%;
   float: right;
+  animation: show .5s linear;
+}
+
+@keyframes show{
+  0%{
+    width: 0%;
+    rotate: 0deg;
+  }
+  100%{
+    width: 70%;
+    rotate: -360deg;
+  }
 }
 
 main>header button{
@@ -355,10 +391,12 @@ div.centered hr{
 
 figure:hover img{
   box-shadow: 12px 12px 2px 1px rgb(0, 0, 0);
+  width: 55%;
 }
 
 figure:active img{
   opacity: .1;
+  width: 50%;
 }
  /* end partner box*/
 
@@ -398,13 +436,8 @@ section.questions li p{
   margin-top: 2rem;
 }
 
-section.questions li .fa-angle-up,
 section.questions li:hover .fa-angle-down{
-  display: none;
-}
-
-section.questions li:hover .fa-angle-up{
-  display: inline;
+  rotate: 180deg;
 }
 
 section.questions li:hover{
