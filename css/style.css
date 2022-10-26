@@ -97,12 +97,6 @@ section.more-operation article{
   border: 1px solid black;
 }
 
-.neutral{
-  background-color: white;
-  color: black;
-  font-family: 'Open Sans', sans-serif;
-}
-
 .limited{
   width: 60%;
 }
@@ -259,6 +253,12 @@ div.side-container{
   margin-top: 2rem;
 }
 
+button.neutral{
+  background-color: white;
+  color: black;
+  font-family: 'Open Sans', sans-serif;
+}
+
  /* end partner contact */
 
  /* more operation */
@@ -281,7 +281,6 @@ section.box-section>div{
   min-width: 400px;
   min-height: 400px;
   background-color: #f5f5f5;
-  flex-wrap: wrap;
 }
 
 div.box-container figure{
@@ -366,6 +365,9 @@ section.questions h2{
 
 section.questions li{
   padding: 2rem 0;
+  height: 86px;
+  overflow-y: hidden;
+  transition: 1s;
 }
 
 li i.absolute{
@@ -373,21 +375,20 @@ li i.absolute{
 }
 
 section.questions li p{
-  margin-top: 1rem;
+  margin-top: 2rem;
 }
 
-section.questions li p,
 section.questions li .fa-angle-up,
 section.questions li:hover .fa-angle-down{
   display: none;
 }
 
-section.questions li:hover p{
-  display:block;
-}
-
 section.questions li:hover .fa-angle-up{
   display: inline;
+}
+
+section.questions li:hover{
+  height: 195px;
 }
 
 
