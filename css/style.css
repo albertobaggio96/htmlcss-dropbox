@@ -68,14 +68,7 @@ section.more-operation article{
 }
 /* end class flex */
 
-.overflow-x{
-  overflow-x: auto;
-}
-
-.min-width{
-  min-width: 270px;
-}
-
+/* position */
 .clearfix{
   content: "";
   clear: both;
@@ -88,6 +81,15 @@ section.more-operation article{
 
 .absolute{
   position: absolute;
+}
+/* end position */
+
+.overflow-x{
+  overflow-x: auto;
+}
+
+.min-width{
+  min-width: 270px;
 }
 
 .medium-container{
@@ -114,6 +116,8 @@ section.more-operation article{
   border-bottom: 1px solid black;
 }
 
+/* common animation */
+
 button:hover{
   padding: .7rem .9rem;
 }
@@ -136,6 +140,8 @@ article.bordered-container:hover,
 section.more-operation article:hover{
   width: calc(100% / 3);
 }
+/* end common animation */
+/* end common caratteristic */
 
 /* header */
 
