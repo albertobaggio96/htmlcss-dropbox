@@ -128,7 +128,8 @@ button:active{
 }
 
 a:hover{
-  font-weight: bolder;
+  font-weight: 600;
+  text-decoration: underline;
 }
 
 a:active{
@@ -147,28 +148,57 @@ section.more-operation article:hover{
 
 body>header{
   width: 100%;
-  height: 5rem;
+  height: 4rem;
   background-color: white;
   position: fixed;
   z-index: 1;
   min-width: 470px;
 }
 
-header ul li{
-  margin: 0 .5rem;
-}
-
 header li img{
   width: 100%;
+  vertical-align: text-bottom;
 }
 
-header ul li{
-  line-height: 2rem;
+header nav>ul>li{
+  line-height: 4rem;
+  padding: 0 1rem;
 }
 
 header ul li a{
   color: black;
 }
+
+ul ul{
+  display: none;
+  line-height: 3rem;
+}
+
+header>nav>ul>li:hover{
+  background-color: #f7f5f2;
+}
+
+nav>ul>li:hover ul{
+  display: block;
+  width: 15rem;
+  background-color: #f7f5f2;
+  padding: .5rem;
+  left: -5px;
+}
+
+li>div.absolute{
+  display: none;
+  line-height: 2rem;
+}
+
+nav>ul>li:hover div{
+  display: block;
+  width: 12rem;
+  left: -4rem;
+  padding: .5rem;
+  background-color: #f7f5f2;
+}
+
 /* main */
 
 /* main header */

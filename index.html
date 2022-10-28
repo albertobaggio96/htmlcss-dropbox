@@ -19,14 +19,56 @@
     <nav class="flex space-between wrap">
       <ul class="flex">
         <li><img src="img/logo-small.png" alt="logo"></li>
-        <li><a href="#">Perché Dropbox</a> </li>
-        <li><a href="#">Funzioni</a></li>
-        <li><a href="#">Piani e Prezzi</a></li>
+        <li class="relative"><a href="#">Perché Dropbox</a> 
+          <ul class="absolute">
+            <li><a href="#">Funzioni</a></li>
+            <li><a href="#">Piani e Prezzi</a></li>
+            <li><a href="#">Supporto</a></li>
+            <li><a href="#">Perché Dropbox</a> </li>
+          </ul>
+        </li>
+        <li class="relative"><a href="#">Funzioni</a>
+          <ul class="absolute">
+            <li><a href="#">Funzioni</a></li>
+            <li><a href="#">Piani e Prezzi</a></li>
+            <li><a href="#">Supporto</a></li>
+            <li><a href="#">Perché Dropbox</a> </li>
+          </ul>
+        </li>
+        <li class="relative"><a href="#">Piani e Prezzi</a>
+          <ul class="absolute">
+            <li><a href="#">Funzioni</a></li>
+            <li><a href="#">Piani e Prezzi</a></li>
+            <li><a href="#">Supporto</a></li>
+            <li><a href="#">Perché Dropbox</a> </li>
+          </ul>
+        </li>
       </ul>
       <ul class="flex">
-        <li><a href="#">Supporto</a></li>
-        <li><a href="#">Contatta l'ufficio vendite</a></li>
-        <li><a href="#"> Accedi</a></li>
+        <li class="relative"><a href="#">Supporto</a>
+          <ul class="absolute">
+            <li><a href="#">Funzioni</a></li>
+            <li><a href="#">Piani e Prezzi</a></li>
+            <li><a href="#">Supporto</a></li>
+            <li><a href="#">Perché Dropbox</a> </li>
+          </ul>
+        </li>
+        <li class="relative"><a href="#">Contatta l'ufficio vendite</a>
+          <ul class="absolute">
+            <li><a href="#">Funzioni</a></li>
+            <li><a href="#">Piani e Prezzi</a></li>
+            <li><a href="#">Supporto</a></li>
+            <li><a href="#">Perché Dropbox</a> </li>
+          </ul>
+        </li>
+        <li class="relative"><a href="#"> Accedi</a>
+          <div class="absolute">
+            <label for="email">Immetti la tua e-mail</label>
+            <input type="email" placeholder="e-mail or nickname" name="email" id="email">
+            <label for="password">Immetti la tua password</label>
+            <input type="password" placeholder="password" name="password" id="password">
+          </div>
+        </li>
         <li><button>Inizia</button></li>
       </ul>
     </nav>
